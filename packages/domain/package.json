@@ -1,0 +1,25 @@
+{
+  "name": "@talk-with-your-pet/domain",
+  "version": "0.0.1",
+  "scripts": {
+    "check": "npx npm-check --skip-unused",
+    "delta-lint:code": "eslint $(git diff --name-only --diff-filter=ACMRTUXB origin/main | grep -E 'packages/domain/.*(.js$|.ts$|.tsx$)' | sed -e 's:packages/[^/]*/::g')",
+    "lint:code": "eslint .",
+    "types": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "client-only": "^0.0.1",
+    "server-only": "^0.0.1"
+  },
+  "dependencies": {
+    "@talk-with-your-pet/common": "file:../common",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "ms": "^2.1.3",
+    "p-iteration": "^1.1.8",
+    "random-word-slugs": "^0.1.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/ms": "^0.7.34"
+  }
+}
