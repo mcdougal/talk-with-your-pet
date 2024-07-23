@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: `What are they thinking??? 🐱💬 🐶💬`,
     images: [
       {
-        url: `https://res.cloudinary.com/swivvel/image/upload/v1711649509/cat-with-speech-bubble.webp`,
+        url: `https://res.cloudinary.com/cedricmcdougal/image/upload/v1711649509/talk-with-your-pet/cover-image.webp`,
         width: 1024,
         height: 1024,
       },

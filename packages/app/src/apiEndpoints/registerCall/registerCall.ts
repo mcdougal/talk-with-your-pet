@@ -10,8 +10,8 @@ import { RegisterCallResponse } from '@/app/apiTypes';
 
 import { RouteHandler } from '../types';
 
-const CAT_AGENT_ID = `dea6561be96afa98f6562a3b00d8c769`;
-const DOG_AGENT_ID = `db3beab6b7ba74705409c5d7c77e0bd8`;
+const CAT_AGENT_ID = `d47cadfe2c77e79614d43963d2c7aa7e`;
+const DOG_AGENT_ID = `a043dd325da1cfe2cd0e2844f5e4d31f`;
 
 const retell = new RetellClient({
   apiKey: getRequiredEnvVar(`RETELLAI_API_KEY`),

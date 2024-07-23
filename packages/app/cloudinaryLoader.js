@@ -8,5 +8,5 @@ export default ({ src, width, quality }) => {
     ? ``
     : `/${params.join(`,`)}`;
 
-  return `https://res.cloudinary.com/swivvel/image/upload${paramsStr}${src}`;
+  return `https://res.cloudinary.com/cedricmcdougal/image/upload${paramsStr}${src}`;
 };
